@@ -1,0 +1,27 @@
+{
+  "name": "yijiayipu",
+  "version": "1.0.0",
+  "description": "yi-jia-yi-pu sns node8.9.4 npm5.6.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorkindeng/yijiayipu.git"
+  },
+  "keywords": [
+    "sns"
+  ],
+  "author": "Sorkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorkindeng/yijiayipu/issues"
+  },
+  "homepage": "https://github.com/sorkindeng/yijiayipu#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.4.0"
+  }
+}
