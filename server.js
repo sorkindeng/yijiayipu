@@ -6,7 +6,7 @@ AV.init({
   appKey: process.env.LEANCLOUD_APP_KEY || config.LEANCLOUD_APP_KEY
 });
 
-// 1
+// 1 2
 var app = require('./src/app.js');
 
 // 加载云引擎中间件
