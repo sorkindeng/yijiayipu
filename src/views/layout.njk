@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{{ (title if title else '一加一，靠谱！') }}</title>
+    <link rel="stylesheet" href="/lib/bootstrap-4.1.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+      
+    {% block headcss %}
+    <link rel="stylesheet">
+    {% endblock %}
+  </head>  
+  <body>
+    {% block header %}
+    <div class="page-header">
+      <div class="container">
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="/about" title="关于">关于</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about" title="关于">关于</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about" title="关于">关于33</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about" title="关于">关于</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about" title="关于">关于</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about" title="关于">关于</a></li>
+        </ul>
+      </div>
+    </div>
+    {% endblock %}
+    {% block body %}
+    <h1>this is body</h1>
+    {% endblock %}
+
+    {% block footer %}
+    <div class="jumbotron">
+      <div class="container text-center text-muted">
+        京ICP备999000999号
+        <small>Powered by <a href="" title="轻量级CMS内容管理系统" target="_blank">abcde</a></small>
+      </div>
+    </div>
+    {% endblock %}
+
+    <script src="/lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="/lib/bootstrap-4.1.0/dist/js/bootstrap.min.js"></script>
+    {% block tailjs %}
+    <script> //this is place for javascript </script>
+    {% endblock %}
+  </body>
+</html>

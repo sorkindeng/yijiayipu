@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{{ (title if title else '一加一，靠谱！') }}</title>
+    <link rel="stylesheet" href="/lib/bootstrap-3.3.7/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/access.css" />
+     
+  </head>  
+  <body>
+		<section class="container-fluid cover">
+      <a href="/"><img src="/static/img/logo.png" alt="Chipper Logo" height="75" class="logo"></a>
+			<div class="container no-padding-on-mobile">
+				<div class="jumbotron">
+					<h1><span class="line-break">Be the most organized student</span> <span class="line-break">you can be.</span></h1>
+					<p>Get the app that schedules exactly what to do each day to ace your classes, get your dream job, and win at life.</p>
+				</div>
+				
+				<div class="text-center">
+					<form class="form-inline" action="/gallery/access" method="POST">
+						
+						<div class="form-group">
+							<input type="password" name="accesscode" placeholder="请输入相册访问码" class="form-control input-lg" required value="">
+							
+						</div>
+						<button type="submit" class="btn btn-primary btn-lg">开始浏览相册照片</button>
+					</form>
+				</div>
+				
+			</div>
+		</section>
+
+
+    <div class="jumbotron">
+      <div class="container text-center text-muted">
+        京ICP备999000999号
+        <small>Powered by <a href="" title="轻量级相册" target="_blank">abcde</a></small>
+      </div>
+    </div>
+
+    <script src="/lib/jquery/jquery-2.2.1.min.js"></script>
+    <script src="/lib/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
